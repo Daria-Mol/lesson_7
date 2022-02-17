@@ -10,7 +10,6 @@
 	.wrapper{
 	 min-height: 100%;
 	 overflow: hidden;
-	 max-width: 1920px;
 	 font-family: 'Lato', sans-serif;
  	}
 	.container{
@@ -45,6 +44,7 @@
 		font-size: 16px;
 		max-width: 390px;
 		margin: 0px 0px 20px 0px;
+
 	}
 	.why-subtitle {
 		color: #1E212C;
@@ -77,6 +77,7 @@
 		background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
 		display: inline-block;
 		border-radius: 4px;
+
 	}
 	.why-link {
 		display: inline-block;
@@ -107,7 +108,9 @@
 		line-height: 1.6;
 		margin: 0px 0px 40px 0px;
 	}
-	
+	.hr img{
+		max-width: 810px;
+	}
 	.data-time {
 		display: inline-block;
 		color: #787A80;
@@ -181,6 +184,7 @@
 	font-family: 'Mulish', sans-serif;
 	background: url("../img/bg1.jpg") 0 0 repeat;
 	padding: 10px 0 0 0 ;
+	margin: 0px auto;
 	
 }
 
@@ -279,11 +283,11 @@
 	background: linear-gradient(76deg, rgba(255,0,0,0.6138830532212884) 0%, rgba(184,3,255,0.6082808123249299) 77%);
 }
 .container-mod5{
-	background: url("../img/10.JPG") center / cover no-repeat fixed;
+	background: url("../img/10.jpg") center / cover no-repeat fixed;
 	height: 500px;
 }
 .container-mod6{
-	background: url("../img/11.JPG") center / cover no-repeat fixed;
+	background: url("../img/11.jpg") center / cover no-repeat fixed;
 	height: 500px;
 }
 .text-mod6{
